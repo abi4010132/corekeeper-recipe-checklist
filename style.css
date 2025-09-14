@@ -1,0 +1,60 @@
+
+body {
+    background-color: #181a1b;
+}
+
+.ingredient-img{
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.check{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+
+}
+.table {
+    position:relative;
+    top:1rem;
+    margin: auto;
+}
+th {
+    margin-left: 10px;
+    position:relative;
+}
+
+input[type='checkbox'] {
+    -webkit-appearance: none; 
+    display: flex;
+    height: 32px;
+    width: 32px;
+    transition: 0.10s;
+    margin-left:12px;
+    border-radius: 4px;
+    background-color: #555;
+}
+
+input[type='checkbox']:hover{
+    cursor: pointer;
+}
+input[type='checkbox']:checked {
+    background-color: #40d47e;
+}
+
+.ingredient-counter, .total-counter {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  font-family: 'abc';
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+}
+
+.wrapper{
+    zoom: 0.90;
+    -moz-transform: scale(0.90);
+}
